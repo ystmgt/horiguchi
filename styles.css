@@ -364,6 +364,7 @@ footer p {
 	text-transform: uppercase;
 	cursor: hand,pointer;
 	border-radius: 5px;
+	cursor: pointer;
 }
 
 #menu_navi ul {
