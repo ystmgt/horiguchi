@@ -19,7 +19,7 @@
 }
 
 html {
-	background: #f0ebda url(img/bg.jpg);
+	background: #f0ebda url(img/bg5.jpg);
 }
 
 body {
@@ -140,12 +140,12 @@ header nav ul li a:hover {
 
 
 #container {
-	margin: 30px auto;
+	margin: 30px auto 60px;
 	padding 0;
 }
 
 #container h1 {
-	margin: 30px auto 0px;
+	margin: 80px auto 5px;
 	padding: 0;
 	text-align: center;
 	font-size: 180%;
