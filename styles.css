@@ -64,19 +64,22 @@ header a img {
 header nav {
 	position: absolute;
 	right: 0px;
-	top: 20px;
+	top: 1px;
 }
 
 header nav ul {
-	height: 150px;
-	list-style: none;}
+	/*height: 150px;*/
+	list-style: none;
+}
 
 header nav ul li {
 	float: left;
+/*
 	margin-right: 30px;
 	text-align: center;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
+*/
 }
 
 header nav ul li:hover {
@@ -84,6 +87,7 @@ header nav ul li:hover {
 	-moz-transform: scale( 1.2 );
 }
 
+/*
 header nav ul li a {
 	width: 80px;
 	color: #ffffff;
@@ -98,10 +102,13 @@ header nav ul li a {
 	text-decoration: none;
 	background: #C0C0C0;
 }
+*/
 
+/*
 header nav ul li a:hover {
 	background: #696969;
 }
+*/
 
 .tel_top {
 	position: absolute;
