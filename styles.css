@@ -19,7 +19,11 @@
 }
 
 html {
-	background: #f0ebda url(img/bg6.jpg);
+	background: #f0ebda url(img/bg7.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 body {
@@ -42,7 +46,7 @@ body {
 
 #topimg {
 	margin: 0 auto;
-	padding: 3px;
+	padding: 8px;
 	background: #F9FDF5;
 }
 
@@ -152,7 +156,7 @@ header nav ul li a:hover {
 }
 
 #container h1 {
-	margin: 80px auto 5px;
+	margin: 80px auto 10px;
 	padding: 0;
 	text-align: center;
 	font-size: 180%;
