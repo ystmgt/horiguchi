@@ -120,6 +120,14 @@ header[role="navigation"] {
 
 .info_text {
 	float: left;
-	width: 540px;
+	width: 490px;
+}
+
+#featured {
+	padding: 5px 10px;
+}
+
+#recent {
+	padding: 5px 10px;
 }
 
