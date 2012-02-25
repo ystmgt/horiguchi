@@ -140,3 +140,10 @@ header[role="navigation"] {
 	width: 40%;
 }
 
+ul.tabs.left {
+	text-align: left;
+	width: 750px;
+}
+
+
+
