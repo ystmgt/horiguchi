@@ -140,10 +140,32 @@ header[role="navigation"] {
 	width: 40%;
 }
 
+.omoi {
+	margin: 10px;
+}
+
 ul.tabs.left {
 	text-align: left;
 	width: 750px;
 }
 
+.tab-content {
+	width: 750px;
+}
 
+.img-wrap.style3.menulist {
+	margin: 3px;
+
+}
+
+.menu_detail {
+	width: 366px;
+	float: left;
+	margin: 3px;
+}
+
+.menu_text {
+	width: 360px;
+	margin: 3px;
+}
 
