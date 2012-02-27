@@ -169,3 +169,8 @@ ul.tabs.left {
 	margin: 3px;
 }
 
+div.caption.caption {
+	float: left;
+	margin: 5px;
+}
+
