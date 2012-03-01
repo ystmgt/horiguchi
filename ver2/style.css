@@ -174,3 +174,10 @@ div.caption.caption {
 	margin: 5px;
 }
 
+section.map {
+	color: #666666;
+}
+
+span.icon.medium.red.map {
+	margin: 0 20px;
+}
