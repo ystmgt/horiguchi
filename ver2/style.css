@@ -181,3 +181,11 @@ section.map {
 span.icon.medium.red.map {
 	margin: 0 20px;
 }
+
+iframe.map-placeholder {
+	margin: 5px 5px 5px 20px;
+}
+
+.map_detail {
+	margin: 1px;
+}
