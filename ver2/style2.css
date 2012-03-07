@@ -158,6 +158,7 @@ ul.tabs.left {
 
 .tab-content {
 	width: 750px;
+	padding: 5px;
 }
 
 .img-wrap.style3.menulist {
@@ -211,6 +212,6 @@ html {
 }
 
 .navi_address {
-	margin: 5px 10px;
+	margin: 0 10px;
 }
 
