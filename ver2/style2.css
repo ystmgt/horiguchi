@@ -54,6 +54,13 @@ width:960px;/*960*/
 background:#fff;
 margin:10px auto 30px auto;
 padding:0;
+
+border-radius: 8px;
+border: solid 1px #EFEFEF;
+position: relative;
+-moz-box-shadow: 2px 2px 15px #FFFFFF, -2px -2px 15px #FFFFFF;
+-webkit-box-shadow: 2px 2px 15px #FFFFFF, -2px -2px 15px #FFFFFF;
+box-shadow: 2px 2px 15px #FFFFFF, -2px -2px 15px #FFFFFF;
 /* border:1px solid #ccc; */
 }
 
