@@ -105,7 +105,12 @@ left:0;
 header[role="navigation"] {
 	float: left;
 	width: 140px;
-	margin: 15px;
+	margin: 15px 9px 15px 15px;
+	border-right: solid 1px #CCC;
+}
+
+header > hr.alt2 {
+	width: 90%;
 }
 
 #content {
