@@ -208,7 +208,8 @@ iframe.map-placeholder {
 
 /* add 20120305 */
 html {
-	background: url(img/bg.png);
+	background: url(img/bg4.png) repeat-x top left;
+	background-color: #FF9430;
 }
 
 .fb-like {
