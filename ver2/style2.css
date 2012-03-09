@@ -143,7 +143,7 @@ p.center.footer {
 }
 
 #featured {
-	padding: 5px 10px;
+	padding: 25px 10px 5px 10px;
 }
 
 #recent {
@@ -213,8 +213,11 @@ iframe.map-placeholder {
 
 /* add 20120305 */
 html {
+	background: url(img/bg2.png);
+	/*
 	background: url(img/bg4.png) repeat-x top left;
 	background-color: #FF9430;
+	*/
 }
 
 .fb-like {
