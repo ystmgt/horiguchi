@@ -1,0 +1,64 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+#wrap {
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	width: 100%;
+	margin: 0;
+	height: 100%;
+	min-width: 970px;
+}
+
+#logo_top {
+	float: left;
+	position: fixed;
+	right: 20px;
+	bottom: 10px;
+	margin: 0;
+	padding: 7px;
+	height: 400px;
+	width: 400px;
+	padding: 157px 0 0 63px;
+	z-index: 900;
+}
+
+#navi {
+	width: 145px;
+	background: url(img/top/bgmenu.png) repeat 0 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	margin: 0;
+}
+
+#navi > ul {
+	list-style: none;
+	display: inline-block;
+}
+
+#navi a {
+	display: inline-block;
+	width: 150px;
+	height: 80px;
+	line-height: 80px;
+	color: white;
+	white-space: nowrap;
+	font-family: Verdana,Helvetica,Arial;
+	font-size: 12px;
+	text-align: center;
+	text-decoration: none;
+	margin-left: -45px;
+}
+
+#link {
+	width: 100%;
+	position: fixed;
+	bottom: 10px;
+	left: 155px;
+}
+
