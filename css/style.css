@@ -1,0 +1,234 @@
+/*
+	99Lime.com HTML KickStart by Joshua Gatcke
+	style.css
+	
+*/
+
+/*---------------------------------
+	IMPORTS
+-----------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
+
+/*---------------------------------
+	OVERRIDES
+-----------------------------------*/
+h1,h2,h3,h4,h5,h6{
+font-family: "Trebuchet Ms", arial, verdana, sans-serif;
+}
+
+thead th,
+tbody th{
+font-family: "Trebuchet Ms", arial, verdana, sans-serif;
+}
+
+button,
+a.btn,
+input[type="submit"],
+input[type="reset"],
+input[type="button"]{
+font-family: "Trebuchet Ms", arial, verdana, sans-serif;
+}
+
+.menu{
+font-family: "Trebuchet Ms", arial, verdana, sans-serif;
+}
+
+blockquote{
+font-family: "Trebuchet Ms", arial, verdana, sans-serif;
+}
+
+/*---------------------------------
+	LAYOUT
+-----------------------------------*/
+body{
+margin:0;
+padding:0;
+color:#000;
+/* background:#efefef url(css/img/grid.png) repeat center top; */
+font:normal 0.9em/150% 'Arimo', "Trebuchet MS", arial, verdana, sans-serif;
+text-shadow: 0px 0px 1px transparent; /* google font pixelation fix */
+}
+
+#wrap{
+width:960px;/*960*/
+background:#fff;
+margin:10px auto 30px auto;
+padding:0;
+
+border-radius: 8px;
+border: solid 1px #EFEFEF;
+/*
+position: relative;
+-moz-box-shadow: 2px 2px 15px #FFFFFF, -2px -2px 15px #FFFFFF;
+-webkit-box-shadow: 2px 2px 15px #FFFFFF, -2px -2px 15px #FFFFFF;
+box-shadow: 2px 2px 15px #FFFFFF, -2px -2px 15px #FFFFFF;
+*/
+}
+
+.menu{
+margin:-1px -1px 0 -1px;
+}
+
+
+#footer{
+text-align:center;
+padding:20px;
+margin:0;
+background:#efefef;
+border-top:1px solid #ccc;
+color:#999;
+font-size:0.8em;
+text-shadow:0px 1px 1px #fff;
+position: relative;
+top:0;
+left:0;
+}
+
+#link-top{
+	position: absolute;
+	top:10px;
+	right:10px;
+	*right:25px;/*IE 7 ONLY*/
+	left:auto;
+	color:#666;
+	text-decoration:none;
+	display: inline-block;
+	padding:5px 10px;
+	background:#e5e5e5;
+	line-height:100%;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+
+/* add 20120305 */
+header[role="navigation"] {
+	float: left;
+	width: 140px;
+	margin: 15px 9px 15px 15px;
+	border-right: solid 1px #CCC;
+}
+
+header > hr.alt2 {
+	width: 90%;
+}
+
+#content {
+	float: right;
+	margin: 0 10px;
+}
+
+p.center.footer {
+	padding: 0 0 25px 0;
+}
+
+.menu.vertical {
+	background: none;
+	border: none;
+}
+
+.menu li.current > a, .menu li.current > a:hover, .menu li.current.hover > a {
+	background: none;
+	color: #000000;
+}
+
+.info_img {
+	float: left;
+	margin-right: 20px;
+}
+
+.info_text {
+	float: left;
+	width: 490px;
+}
+
+#featured {
+	padding: 25px 10px 5px 10px;
+}
+
+#recent {
+	padding: 5px 10px;
+}
+
+.tel {
+	color: #ff6347;
+}
+
+/* add 20120305 */
+#top-of-page > img {
+	margin: 30px 0 0 10px;
+	width: 40%;
+}
+
+.omoi {
+	margin: 10px;
+}
+
+ul.tabs.left {
+	text-align: left;
+	width: 750px;
+}
+
+.tab-content {
+	width: 750px;
+	padding: 5px;
+}
+
+.img-wrap.style3.menulist {
+	margin: 3px;
+
+}
+
+.menu_detail {
+	width: 366px;
+	float: left;
+	margin: 3px;
+}
+
+.menu_text {
+	width: 360px;
+	margin: 3px;
+}
+
+div.caption.caption {
+	float: left;
+	margin: 5px;
+}
+
+section.map {
+	color: #666666;
+}
+
+span.icon.medium.red.map {
+	margin: 0 20px;
+}
+
+iframe.map-placeholder {
+	margin: 5px 5px 5px 20px;
+}
+
+.map_detail {
+	margin: 1px;
+}
+
+/* add 20120305 */
+html {
+	background: url(../img/bg2.png);
+	/*
+	background: url(img/bg4.png) repeat-x top left;
+	background-color: #FF9430;
+	*/
+}
+
+.fb-like {
+	margin: 5px 10px;
+}
+
+.twitter-link {
+	margin: 5px 10px;
+}
+
+.navi_address {
+	margin: 0 10px;
+}
+

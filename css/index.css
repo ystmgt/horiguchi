@@ -28,7 +28,7 @@ body {
 
 #navi {
 	width: 145px;
-	background: url(img/top/bgmenu.png) repeat 0 0;
+	background: url(../img/top/bgmenu.png) repeat 0 0;
 	position: absolute;
 	top: 0;
 	left: 0;
