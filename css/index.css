@@ -1,3 +1,9 @@
+html {
+    min-height: 100%;
+    background: url('../img/top/bg1.jpg') no-repeat center;
+    background-size: cover;
+}
+
 body {
 	font-family: Helvetica, Arial, sans-serif;
 }
@@ -11,7 +17,7 @@ body {
 	margin: 0;
 	height: 100%;
 	min-width: 970px;
-	background: url(../img/niato.gif) 
+	//background: url(../img/niato.gif) 
 }
 
 #logo_top {
@@ -63,5 +69,25 @@ body {
 	position: fixed;
 	bottom: 10px;
 	left: 155px;
+}
+
+#shop_info {
+    margin: 0px 5px 0px 146px;
+    padding: 15px 15px;
+    width: 56%;
+    color: #666666;
+    background-color: rgba(255,255,255, 0.7);
+}
+
+#shop_info p {
+    margin: 1px;
+    padding: 1px;
+    font-family: monospace, serif, sans-serif, monospace;
+}
+
+#shop_info p strong {
+    font: 140% monospace;
+    font-weight: bold;
+    color: #FF0120;
 }
 
